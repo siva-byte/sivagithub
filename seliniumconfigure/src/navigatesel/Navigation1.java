@@ -12,7 +12,7 @@ public class Navigation1 {
         driver.manage().window().maximize();
         System.out.println(driver.getTitle());
         
-        driver.navigate().to("https://www.facebook.com/");
+        driver.navigate().to("https://www.facebook.coom/");
         System.out.println(driver.getTitle());
         driver.navigate().back();
         System.out.println(driver.getTitle());
